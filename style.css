@@ -4,13 +4,7 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
-}
-
-body {
-  background-image: url(../images/header-shapes-mobile.png);
-  background-size: 100%;
-  background-position: 0 80px;
-  background-repeat: no-repeat;
+  list-style: none;
 }
 
 .navbar {
@@ -19,6 +13,13 @@ body {
   align-items: center;
   padding: 10px 20px;
   min-height: 10vh;
+}
+
+.background {
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: -104px;
 }
 
 .web-name {
@@ -42,6 +43,7 @@ body {
   align-items: center;
   margin-top: 114px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 .details p {
@@ -54,7 +56,8 @@ body {
   margin-right: 24px;
 }
 
-.details h3 {
+.details .connect {
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -64,7 +67,7 @@ body {
 }
 
 .social-links {
-  display: inline-block;
+  display: flex;
   margin-left: 14px;
   margin-top: 12px;
 }
