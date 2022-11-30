@@ -12,14 +12,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  min-height: 10vh;
+  min-height: 100%;
 }
 
 .background {
-  background-size: 100%;
-  position: absolute;
+  background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
-  margin-top: -104px;
+  background-size: cover;
 }
 
 .web-name {
