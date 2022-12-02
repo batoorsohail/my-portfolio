@@ -173,11 +173,11 @@ h3 {
 
 .about {
   padding: 24px;
-  background: #FFFFFF;
+  background: #fff;
   border-top-right-radius: 100px;
 }
 
-.border{
+.border {
   background: #e5e5e5;
 }
 
@@ -197,11 +197,6 @@ h3 {
   line-height: 24px;
   color: #344563;
   margin-top: 12px;
-}
-
-h2 {
-  margin-top: 60px;
-  margin-bottom: 36px;
 }
 
 .languages {
