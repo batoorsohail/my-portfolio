@@ -172,10 +172,16 @@ h3 {
 /* ---------------------------about me------------------------------------------ */
 
 .about {
-  margin: 24px;
+  padding: 24px;
+  background: #FFFFFF;
+  border-top-right-radius: 100px;
 }
 
-.about h1 {
+.border{
+  background: #e5e5e5;
+}
+
+.about h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
