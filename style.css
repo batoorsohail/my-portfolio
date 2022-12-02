@@ -55,7 +55,7 @@
   margin-top: 12px;
 }
 
-.details .connect {
+.connect {
   display: flex;
   font-weight: 500;
   font-size: 16px;
@@ -80,17 +80,16 @@
   background: #e5e5e5;
   padding: 114px 24px;
   display: grid;
-  flex-direction: column;
   margin-top: 114px;
   justify-content: center;
 }
 
 .works {
   padding: 16px;
-  margin-top: 114px;
+  margin-top: 88px;
   background: #fff;
   width: 327px;
-  height: 552px;
+  height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -123,21 +122,6 @@ h3 {
   margin-top: 20px;
   font-size: 13px;
   line-height: 16px;
-}
-
-button {
-  margin-top: 25px;
-  padding: 5px;
-  background: #fff;
-  border: solid #396df2;
-  border-radius: 5px;
-}
-
-button a {
-  font-size: 17px;
-  font-weight: 500;
-  color: #396df2;
-  line-height: 24px;
 }
 
 .proj a {
@@ -173,7 +157,41 @@ button a {
   margin-right: 8px;
 }
 
+.button {
+  display: inline-grid;
+  margin-top: 24px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #396df2;
+}
+
 /* ---------------------------about me------------------------------------------ */
+
+.about {
+  margin: 24px;
+}
+
+.about h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+  margin-top: 114px;
+}
+
+.about p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+}
 
 h2 {
   margin-top: 60px;
