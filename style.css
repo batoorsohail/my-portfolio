@@ -333,7 +333,7 @@ form input::placeholder {
   text-align: center;
 }
 
-button:hover{
+button:hover {
   color: white;
   background: #396df2;
 }
