@@ -253,10 +253,14 @@ h3 {
   background: #6070FF;
   border-top-left-radius: 100px;
 }
+.contact-me{
+  font-size: 40px;
+}
 .title-container{
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 12px;
 }
 .title-container p{
   align-self: center;
@@ -273,7 +277,26 @@ form input{
   height: 48px;
   border-radius: 8px;
 }
+form input::placeholder{
+  color: #b3bac5;
+}
 #textarea{
   height: 170px;
   border-radius: 8px;
+}
+/* -------------------------------------------Extras---------------------------- */
+.text-white{
+  color: #fff;
+}
+.text-offwhite{
+  color: #ebebff;
+}
+.margin-vertical-50px{
+  margin: 50px 0;
+}
+.font-size-20px{
+  font-size: 20px;
+}
+.text-justified-center {
+  text-align: center;
 }
