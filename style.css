@@ -332,3 +332,8 @@ form input::placeholder {
 .text-justified-center {
   text-align: center;
 }
+
+button:hover{
+  color: white;
+  background: #396df2;
+}
