@@ -246,3 +246,34 @@ h3 {
   line-height: 24px;
   color: #000;
 }
+/* -------------------------------------------conatact form---------------------------- */
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  background: #6070FF;
+  border-top-left-radius: 100px;
+}
+.title-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title-container p{
+  align-self: center;
+}
+.form-container{
+  margin: 24px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+form input{
+  height: 48px;
+  border-radius: 8px;
+}
+#textarea{
+  height: 170px;
+  border-radius: 8px;
+}
