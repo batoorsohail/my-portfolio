@@ -100,6 +100,7 @@ h3 {
   line-height: 44px;
   margin-top: 12px;
   color: #172b4d;
+  width: 250px;
 }
 
 .proj {
@@ -204,6 +205,10 @@ h3 {
   margin-top: 12px;
 }
 
+.lagu {
+  margin-bottom: 110px;
+}
+
 .languages {
   display: flex;
   width: 303px;
@@ -250,6 +255,19 @@ h3 {
   font-weight: 500;
   line-height: 24px;
   color: #000;
+}
+
+.line {
+  background: #DFE1E6;
+  height: 1px;
+  width: 327px;
+  margin-top: 24px;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 58px;
 }
 
 /* -------------------------------------------conatact form---------------------------- */
@@ -341,4 +359,171 @@ form input::placeholder {
 button:hover {
   color: white;
   background: #396df2;
+}
+/* ---------------------------------------------Desktop version--------------------- */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bar-button {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .navbar {
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+
+  .header {
+    padding-bottom: 130px;
+  }
+
+  .menu a {
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .background {
+    background-image: url(./images/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .details {
+    margin-top: 220px;
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  .details p {
+    font-size: 20px;
+  }
+/* ------------------------------Works------- */
+  .works {
+    display: flex;
+    flex-direction: row;
+    width: 1156px;
+    height: auto;
+  }
+  
+  .works:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .works:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  .card-work {
+    padding: 46px;
+  }
+
+  .card-work h3 {
+    font-size: 40px;
+  }
+
+  .proj {
+    display: flex;
+  }
+
+  .proj li {
+    font-size: 18px;
+  }
+
+  .proj a {
+    font-size: 18px;
+  }
+
+  .pro {
+    font-size: 16px;
+    margin-top: 32px;
+  }
+
+  .language {
+    display: flex;
+    font-size: 12px;
+    margin-top: 24px;
+  }
+
+  .works img {
+    width: 544px;
+    height: 448px;
+  }
+
+  .button { 
+    margin-top: 40px;
+    justify-content: center;
+  }
+/* --------------------------About Me---------- */
+  .about {
+    display: flex;
+    margin-bottom: 150px;
+  }
+
+  .abmy{
+    width: 447px;
+    height: 392px;
+    margin-left: 142px;
+  }
+  
+  .lagu{
+    margin-top: 50px;
+    width: 684px;
+    height: 360px;
+    margin-left: 37px;
+  }
+  
+  .languages {
+    display: inline-block;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 36px;
+  }
+  
+  .line {
+    width: 684px;
+  }
+/* --------------------------contact me--------- */
+  .contact-form{
+    background-image: url(./images/contact\ form\ background\ shapes@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-offwhite {
+    width: 520px;
+  }
+
+  form input {
+    width: 447px;
+    height: 48px;
+  }
+
+  textarea {
+    width: 447px;
+    height: 170px;
+  }
+
+  button {
+    margin-left: 151px;    
+  }
 }
