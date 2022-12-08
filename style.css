@@ -7,6 +7,10 @@
   list-style: none;
 }
 
+.radius {
+  background: #e5e5e5;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -19,6 +23,8 @@
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 .web-name {
@@ -31,6 +37,11 @@
 .bar-button {
   display: flex;
   color: #6070ff;
+}
+
+.dts {
+  background-color: #fff;
+  border-bottom-left-radius: 100px;
 }
 
 .details {
@@ -67,6 +78,7 @@
 .social-links {
   display: flex;
   margin-top: 12px;
+  margin-bottom: 114px;
 }
 
 .social-icons {
@@ -410,6 +422,10 @@ button:hover {
 
   .details p {
     font-size: 20px;
+  }
+
+  .social-links {
+    margin-bottom: 0;
   }
 
   /* ------------------------------Works------- */
