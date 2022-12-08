@@ -258,7 +258,7 @@ h3 {
 }
 
 .line {
-  background: #DFE1E6;
+  background: #dfe1e6;
   height: 1px;
   width: 327px;
   margin-top: 24px;
@@ -360,6 +360,7 @@ button:hover {
   color: white;
   background: #396df2;
 }
+
 /* ---------------------------------------------Desktop version--------------------- */
 @media screen and (max-width: 768px) {
   .menu {
@@ -407,14 +408,15 @@ button:hover {
   .details p {
     font-size: 20px;
   }
-/* ------------------------------Works------- */
+
+  /* ------------------------------Works------- */
   .works {
     display: flex;
     flex-direction: row;
     width: 1156px;
     height: auto;
   }
-  
+
   .works:nth-child(2) {
     flex-direction: row-reverse;
   }
@@ -459,29 +461,30 @@ button:hover {
     height: 448px;
   }
 
-  .button { 
+  .button {
     margin-top: 40px;
     justify-content: center;
   }
-/* --------------------------About Me---------- */
+
+  /* --------------------------About Me---------- */
   .about {
     display: flex;
     margin-bottom: 150px;
   }
 
-  .abmy{
+  .abmy {
     width: 447px;
     height: 392px;
     margin-left: 142px;
   }
-  
-  .lagu{
+
+  .lagu {
     margin-top: 50px;
     width: 684px;
     height: 360px;
     margin-left: 37px;
   }
-  
+
   .languages {
     display: inline-block;
     width: 122px;
@@ -491,12 +494,13 @@ button:hover {
     align-items: center;
     margin-top: 36px;
   }
-  
+
   .line {
     width: 684px;
   }
-/* --------------------------contact me--------- */
-  .contact-form{
+
+  /* --------------------------contact me--------- */
+  .contact-form {
     background-image: url(./images/contact\ form\ background\ shapes@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -524,6 +528,6 @@ button:hover {
   }
 
   button {
-    margin-left: 151px;    
+    margin-left: 151px;
   }
 }
