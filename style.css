@@ -380,6 +380,11 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .web-name {
+    transition-duration: 1s;
+    transform: rotate(360deg);
+  }
+
   .bar-button {
     display: none;
   }
@@ -426,6 +431,14 @@ button:hover {
 
   .social-links {
     margin-bottom: 0;
+  }
+
+  .social-icons {
+    transition-duration: 0.5s;
+  }
+
+  .social-icons i:hover {
+    transform: scale(1.5);
   }
 
   /* ------------------------------Works------- */
@@ -478,6 +491,11 @@ button:hover {
   .works img {
     width: 544px;
     height: 448px;
+    transition-duration: 0.5s;
+  }
+
+  .works img:hover {
+    transform: scale(1.1);
   }
 
   .button {
