@@ -34,6 +34,12 @@
   line-height: 20px;
 }
 
+ul li:hover{
+  color: #6070ff;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
 .bar-button {
   display: flex;
   color: #6070ff;
@@ -184,6 +190,7 @@ h3 {
 .button:hover {
   color: #fff;
   background: #396df2;
+  transition: 0.5s;
 }
 
 /* ---------------------------about me------------------------------------------ */
@@ -370,6 +377,7 @@ form input::placeholder {
 button:hover {
   color: white;
   background: #396df2;
+  transition: 0.5s;
 }
 
 /* ---------------------------------------------Desktop version--------------------- */
@@ -439,6 +447,7 @@ button:hover {
 
   .social-icons i:hover {
     transform: scale(1.5);
+    transition: 0.5s;
   }
 
   /* ------------------------------Works------- */
