@@ -381,7 +381,7 @@ button:hover {
 
 @media screen and (min-width: 768px) {
   .web-name {
-    transition-duration: 1s;
+    transition-duration: .5s;
     transform: rotate(360deg);
   }
 
