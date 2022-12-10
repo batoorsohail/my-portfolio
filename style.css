@@ -184,6 +184,7 @@ h3 {
 .button:hover {
   color: #fff;
   background: #396df2;
+  transition: 0.5s;
 }
 
 /* ---------------------------about me------------------------------------------ */
@@ -370,6 +371,7 @@ form input::placeholder {
 button:hover {
   color: white;
   background: #396df2;
+  transition: 0.5s;
 }
 
 /* ---------------------------------------------Desktop version--------------------- */
@@ -396,6 +398,10 @@ button:hover {
   .navbar {
     margin-left: 155px;
     margin-right: 155px;
+  }
+
+  .menu-bar:hover {
+    text-decoration: underline;
   }
 
   .menu a {
@@ -439,6 +445,7 @@ button:hover {
 
   .social-icons i:hover {
     transform: scale(1.5);
+    transition: 0.5s;
   }
 
   /* ------------------------------Works------- */
