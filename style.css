@@ -34,12 +34,6 @@
   line-height: 20px;
 }
 
-ul li:hover{
-  color: #6070ff;
-  text-decoration: underline;
-  transition: 0.5s;
-}
-
 .bar-button {
   display: flex;
   color: #6070ff;
@@ -406,12 +400,8 @@ button:hover {
     margin-right: 155px;
   }
 
-  .menu li {
-    transition: transform 0.5s;
-  }
-
-  .menu li:hover {
-    transform: scale(1.1);
+  .menu-bar:hover {
+    text-decoration: underline;
   }
 
   .menu a {
