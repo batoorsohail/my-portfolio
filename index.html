@@ -15,14 +15,20 @@
     <header class="header">
       <nav class="navbar">
         <div class="web-name">Sohail</div>
-        <ul class="menu">
-          <li class="menu-bar"><a href="#">Portfolio</a></li>
-          <li class="menu-bar"><a href="#">About</a></li>
-          <li class="menu-bar"><a href="#">Contact</a></li>
+        <ul class="menu" id="menu">
+          <li class="menu-bar" onclick="closemenu()"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu-bar" onclick="closemenu()"><a href="#about-me">About</a></li>
+          <li class="menu-bar" onclick="closemenu()"><a href="#contact-form">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
         <a href="#" class="bar-button">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </a>
+        <ul class="menu-desktop">
+          <li class="menu-bar"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu-bar"><a href="#about-me">About</a></li>
+          <li class="menu-bar"><a href="#contact-form">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <section class="radius">
@@ -66,7 +72,7 @@
     </section>
     
   <!-- ------------------------------------------------works--------------------------------         -->
-  <section class="shadow-back">
+  <section class="shadow-back" id="portfolio">
     <div class="works">
       <img src="./images/snapshoot-portfolio.png" alt="Work-sample" />
       <div class="card-work work">
@@ -165,7 +171,7 @@
     </div>
   </section>
   <!-- ------------------------------------------------about me--------------------------------         -->
-  <section class="border">
+  <section class="border" id="about-me">
     <section class="about">
       <div class="abmy">
         <h2>
@@ -241,7 +247,7 @@
     </section>
   </section>
   <!-- -------------------------------------------------contact form----------------------------  -->
-  <section class="contact-form">
+  <section class="contact-form" id="contact-form">
     <div class="form-container">
       <div class="margin-vertical-50px title-container">
         <h3 class="text-white contact-me">Contact me</h3>
@@ -277,10 +283,12 @@
           required
         ></textarea>
         <div>
-          <button class="button">Get It Touch</button>
+          <button class="button" type="button">Get It Touch</button>
         </div>
       </form>
     </div>
   </section>
+
+  <script src="main.js"></script>
  </body>
 </html>
