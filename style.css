@@ -62,7 +62,7 @@
   font-size: 32px;
 }
 
-.menu .fa-xmark {
+.menu .right {
   color: #fff;
   position: absolute;
   cursor: pointer;
@@ -140,6 +140,7 @@
   height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  flex-direction: column;
 }
 
 h3 {
@@ -204,11 +205,11 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   margin-right: 8px;
+  letter-spacing: 0.1em;
 }
 
 .button {
   display: inline-grid;
-  margin-top: 22px;
   padding: 12px;
   background: #fff;
   border: 1px solid #396df2;
@@ -222,6 +223,65 @@ h3 {
   color: #fff;
   background: #396df2;
   transition: 0.5s;
+}
+
+.button-mg {
+  margin-top: 24px;
+}
+
+/* -----------------------------pop up-------- */
+.popup {
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  background: #fff;
+  width: 327px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  display: none;
+}
+
+.fa-xmark {
+  color: #67798e;
+  position: absolute;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  right: 30px;
+}
+
+.popup img {
+  margin-top: 20px;
+}
+
+.popup-open {
+  display: block;
+}
+
+.popup-buttons {
+  margin-right: 12px;
+  margin-top: 0;
+}
+
+.lagu-desktop {
+  display: none;
+}
+
+.thin-line {
+  background: #ebecf0;
+  height: 1px;
+  width: 303px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shadow-back#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
 }
 
 /* ---------------------------about me------------------------------------------ */
@@ -405,7 +465,7 @@ form input::placeholder {
   text-align: center;
 }
 
-button:hover {
+.form-button:hover {
   color: white;
   background: #396df2;
   transition: 0.5s;
@@ -417,7 +477,7 @@ button:hover {
     display: none;
   }
 
-  .fa-xmark {
+  .right {
     display: none;
   }
 
@@ -483,19 +543,17 @@ button:hover {
   }
 
   /* ------------------------------Works------- */
+  .shadow-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .works {
     display: flex;
     flex-direction: row;
     width: 1156px;
     height: auto;
-  }
-
-  .works:nth-child(2) {
-    flex-direction: row-reverse;
-  }
-
-  .works:nth-child(4) {
-    flex-direction: row-reverse;
   }
 
   .card-work {
@@ -529,19 +587,60 @@ button:hover {
     margin-top: 24px;
   }
 
-  .works img {
+  .img-transition {
     width: 544px;
     height: 448px;
     transition-duration: 0.5s;
   }
 
-  .works img:hover {
+  .img-transition:hover {
     transform: scale(1.1);
   }
 
   .button {
-    margin-top: 40px;
     justify-content: center;
+  }
+
+  /* ----------------------------popup------------- */
+  #blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .popup-bg {
+    margin: 50px 120px;
+    max-height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    background: #000;
+  }
+
+  .popup {
+    width: 1156px;
+  }
+
+  .popup img {
+    width: 1108px;
+    height: 586px;
+  }
+
+  .left-popup {
+    width: 728px;
+    float: left;
+  }
+
+  .right-popup {
+    float: right;
+    margin-right: 30px;
+  }
+
+  .thin-line {
+    width: 298px;
+  }
+
+  .popup-buttons {
+    width: 142px;
   }
 
   /* --------------------------About Me---------- */
@@ -605,7 +704,7 @@ button:hover {
     height: 170px;
   }
 
-  button {
+  .form-button {
     margin-left: 151px;
   }
 }
