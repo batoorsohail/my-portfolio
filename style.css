@@ -230,8 +230,15 @@ h3 {
 }
 
 /* -----------------------------pop up-------- */
+.my-pop-up {
+  display: none;
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
+  overflow: auto;
+}
+
 .popup {
-  z-index: 1;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -239,9 +246,9 @@ h3 {
   padding: 16px;
   background: #fff;
   width: 327px;
+  height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  display: none;
 }
 
 .fa-xmark {
