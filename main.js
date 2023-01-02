@@ -108,8 +108,6 @@ function createPopup(project) {
   popupSection.appendChild(modal);
 }
 
-
-
 // work sample tamplate
 const workSample = document.querySelector('#portfolio');
 
@@ -163,6 +161,7 @@ function toggle() {
 popup.addEventListener('click', openPopup);
 popup.addEventListener('click', closePopup);
 popup.addEventListener('click', toggle);
+popupSection.addEventListener('click', createPopup);
 
 // formvalidation
 const email = document.querySelector('#email').value;
