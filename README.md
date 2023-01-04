@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./microverseLogo.jpg" alt="logo" width="140"  height="auto" />
+  <img src="microverseLogo.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
