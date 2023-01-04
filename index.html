@@ -12,6 +12,8 @@
     ></script>
   </head>
   <body>
+    <div id="popupModal" class="pop_up_window"></div>
+    
     <header class="header">
       <nav class="navbar">
         <div class="web-name">Sohail</div>
@@ -19,7 +21,7 @@
           <li class="menu-bar" onclick="closemenu()"><a href="#portfolio">Portfolio</a></li>
           <li class="menu-bar" onclick="closemenu()"><a href="#about-me">About</a></li>
           <li class="menu-bar" onclick="closemenu()"><a href="#contact-form">Contact</a></li>
-          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          <i class="fa-solid fa-xmark right" onclick="closemenu()"></i>
         </ul>
         <a href="#" class="bar-button">
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -27,11 +29,11 @@
         <ul class="menu-desktop">
           <li class="menu-bar"><a href="#portfolio">Portfolio</a></li>
           <li class="menu-bar"><a href="#about-me">About</a></li>
-          <li class="menu-bar"><a href="#contact-form">Contact</a></li>
+          <li class="menu-bar"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="radius">
+    <section class="radius" id="blur">
       <section class="dts background">
         <div class="details">
           <h1>
@@ -72,104 +74,10 @@
     </section>
     
   <!-- ------------------------------------------------works--------------------------------         -->
-  <section class="shadow-back" id="portfolio">
-    <div class="works">
-      <img src="./images/snapshoot-portfolio.png" alt="Work-sample" />
-      <div class="card-work work">
-        <h3>Tonic</h3>
-        <ul class="proj">
-          <li><a href="#">CANOPY</a></li>
-          <li><div class="dot"></div></li>
-          <li>Back End Dev</li>
-          <li><div class="dot"></div></li>
-          <li>2015</li>
-        </ul>
-        <p class="pro">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="language">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <a href="#" class="button">See Project</a>
-      </div>
-    </div>
-    <div class="works">
-      <img src="./images/Snapshoot Portfolio.png" alt="Work-sample" />
-      <div class="card-work work">
-        <h3>
-          Multi-Post Stories
-        </h3>
-        <ul class="proj">
-          <li><a href="#">CANOPY</a></li>
-          <li><div class="dot"></div></li>
-          <li>Back End Dev</li>
-          <li><div class="dot"></div></li>
-          <li>2015</li>
-        </ul>
-        <p class="pro">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="language">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <a href="#" class="button">See Project</a>
-      </div>
-    </div>
-    <div class="works">
-      <img src="./images/Snapshoot Portfolio-1.png" alt="Work-sample"/>
-      <div class="card-work work">
-        <h3>Tonic</h3>
-        <ul class="proj">
-          <li><a href="#">CANOPY</a></li>
-          <li><div class="dot"></div></li>
-          <li>Back End Dev</li>
-          <li><div class="dot"></div></li>
-          <li>2015</li>
-        </ul>
-        <p class="pro">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="language">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <a href="#" class="button">See Project</a>
-      </div>
-    </div>
-    <div class="works">
-      <img src="./images/Snapshoot Portfolio-2.png" alt="Work-sample" />
-      <div class="card-work work">
-        <h3>
-          Multi-Post Stories
-        </h3>
-        <ul class="proj">
-          <li><a href="#">CANOPY</a></li>
-          <li><div class="dot"></div></li>
-          <li>Back End Dev</li>
-          <li><div class="dot"></div></li>
-          <li>2015</li>
-        </ul>
-        <p class="pro">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <ul class="language">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-        <a href="#" class="button">See Project</a>
-      </div>
-    </div>
+  <section id="work" class="shadow-back">
+            
   </section>
+
   <!-- ------------------------------------------------about me--------------------------------         -->
   <section class="border" id="about-me">
     <section class="about">
@@ -206,7 +114,7 @@
               ></a>
             </li>
           </ul>
-          <a href="#" class="button">Get my resume</a>
+          <a href="#" class="button button-mg">Get my resume</a>
       </div>
       <div class="lagu">
         <ul class="about-me">
@@ -247,7 +155,7 @@
     </section>
   </section>
   <!-- -------------------------------------------------contact form----------------------------  -->
-  <section class="contact-form" id="contact-form">
+  <section class="contact-form" id="contact">
     <div class="form-container">
       <div class="margin-vertical-50px title-container">
         <h3 class="text-white contact-me">Contact me</h3>
@@ -283,7 +191,8 @@
           required
         ></textarea>
         <div>
-          <button class="button" type="button">Get It Touch</button>
+          <span id="validationMsg"></span><br>
+          <button class="button form-button" type="submit">Get It Touch</button>
         </div>
       </form>
     </div>

@@ -62,7 +62,7 @@
   font-size: 32px;
 }
 
-.menu .fa-xmark {
+.menu .right {
   color: #fff;
   position: absolute;
   cursor: pointer;
@@ -140,6 +140,7 @@
   height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  flex-direction: column;
 }
 
 h3 {
@@ -204,11 +205,11 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   margin-right: 8px;
+  letter-spacing: 0.1em;
 }
 
 .button {
   display: inline-grid;
-  margin-top: 22px;
   padding: 12px;
   background: #fff;
   border: 1px solid #396df2;
@@ -222,6 +223,78 @@ h3 {
   color: #fff;
   background: #396df2;
   transition: 0.5s;
+}
+
+.button-mg {
+  margin-top: 24px;
+}
+
+/* -----------------------------pop up-------- */
+.my-pop-up {
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  z-index: 3;
+  overflow: auto;
+}
+
+.popup-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+  position: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+}
+
+.popup {
+  padding: 16px;
+  background: #fff;
+  width: 327px;
+  height: 780px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.fa-xmark {
+  color: #67798e;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-left: 280px;
+}
+
+.popup img {
+  margin-top: 20px;
+}
+
+.mobile-popup-info {
+  display: block;
+}
+
+.desktop-popup-info {
+  display: none;
+}
+
+.popup-buttons {
+  margin-right: 12px;
+  margin-top: 0;
+}
+
+.lagu-desktop {
+  display: none;
+}
+
+.thin-line {
+  background: #ebecf0;
+  height: 1px;
+  width: 303px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* ---------------------------about me------------------------------------------ */
@@ -405,7 +478,7 @@ form input::placeholder {
   text-align: center;
 }
 
-button:hover {
+.form-button:hover {
   color: white;
   background: #396df2;
   transition: 0.5s;
@@ -417,7 +490,7 @@ button:hover {
     display: none;
   }
 
-  .fa-xmark {
+  .right {
     display: none;
   }
 
@@ -483,6 +556,12 @@ button:hover {
   }
 
   /* ------------------------------Works------- */
+  .shadow-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .works {
     display: flex;
     flex-direction: row;
@@ -490,11 +569,7 @@ button:hover {
     height: auto;
   }
 
-  .works:nth-child(2) {
-    flex-direction: row-reverse;
-  }
-
-  .works:nth-child(4) {
+  .works:nth-child(even) {
     flex-direction: row-reverse;
   }
 
@@ -529,19 +604,60 @@ button:hover {
     margin-top: 24px;
   }
 
-  .works img {
+  .img-transition {
     width: 544px;
     height: 448px;
     transition-duration: 0.5s;
   }
 
-  .works img:hover {
+  .img-transition:hover {
     transform: scale(1.1);
   }
 
   .button {
-    margin-top: 40px;
     justify-content: center;
+  }
+
+  /* ----------------------------popup------------- */
+
+  .popup {
+    width: 1156px;
+    height: 1163px;
+  }
+
+  .fa-xmark {
+    margin-left: 1100px;
+  }
+
+  .popup img {
+    width: 1108px;
+    height: 586px;
+  }
+
+  .left-popup {
+    width: 728px;
+    float: left;
+  }
+
+  .right-popup {
+    float: right;
+    margin-right: 30px;
+  }
+
+  .mobile-popup-info {
+    display: none;
+  }
+
+  .desktop-popup-info {
+    display: block;
+  }
+
+  .thin-line {
+    width: 298px;
+  }
+
+  .popup-buttons {
+    width: 142px;
   }
 
   /* --------------------------About Me---------- */
@@ -605,7 +721,7 @@ button:hover {
     height: 170px;
   }
 
-  button {
+  .form-button {
     margin-left: 151px;
   }
 }
