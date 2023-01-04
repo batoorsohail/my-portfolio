@@ -231,41 +231,53 @@ h3 {
 
 /* -----------------------------pop up-------- */
 .my-pop-up {
-  display: none;
-  position: fixed;
   width: 100vh;
   height: 100vh;
+  position: fixed;
+  z-index: 3;
   overflow: auto;
 }
 
-.popup {
+.popup-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+}
+
+.popup {
   padding: 16px;
   background: #fff;
   width: 327px;
-  height: auto;
+  height: 780px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
 .fa-xmark {
   color: #67798e;
-  position: absolute;
   cursor: pointer;
   width: 25px;
   height: 25px;
-  right: 30px;
+  margin-left: 280px;
 }
 
 .popup img {
   margin-top: 20px;
 }
 
-.popup-open {
+.mobile-popup-info {
   display: block;
+}
+
+.desktop-popup-info {
+  display: none;
 }
 
 .popup-buttons {
@@ -283,12 +295,6 @@ h3 {
   width: 303px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.shadow-back#blur.active {
-  filter: blur(20px);
-  pointer-events: none;
-  user-select: none;
 }
 
 /* ---------------------------about me------------------------------------------ */
@@ -563,6 +569,10 @@ form input::placeholder {
     height: auto;
   }
 
+  .works:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   .card-work {
     padding: 46px;
   }
@@ -609,22 +619,14 @@ form input::placeholder {
   }
 
   /* ----------------------------popup------------- */
-  #blur.active {
-    filter: blur(20px);
-    pointer-events: none;
-    user-select: none;
-  }
-
-  .popup-bg {
-    margin: 50px 120px;
-    max-height: 100%;
-    width: 100%;
-    overflow-y: auto;
-    background: #000;
-  }
 
   .popup {
     width: 1156px;
+    height: 1163px;
+  }
+
+  .fa-xmark {
+    margin-left: 1100px;
   }
 
   .popup img {
@@ -640,6 +642,14 @@ form input::placeholder {
   .right-popup {
     float: right;
     margin-right: 30px;
+  }
+
+  .mobile-popup-info {
+    display: none;
+  }
+
+  .desktop-popup-info {
+    display: block;
   }
 
   .thin-line {
