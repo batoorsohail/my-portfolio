@@ -12,6 +12,8 @@ function closemenu() {
 menu.addEventListener('click', openmenu);
 menu.addEventListener('click', closemenu);
 
+// -----------------------popup and work data--------------------
+
 const modalContainer = document.querySelector('#popupModal');
 
 const projects = [
@@ -115,6 +117,8 @@ function popUpModal(project) {
   return modalContent;
 }
 
+// ----------------------work samples--------------------
+
 function loadProjectCards(projects = []) {
   let projectContents = '';
 
@@ -148,6 +152,8 @@ function loadProjectCards(projects = []) {
   return projectContents;
 }
 
+// -----------------------open and close popup-----------------------
+
 function closePopUp() {
   modalContainer.style.display = 'none';
 }
@@ -178,4 +184,25 @@ window.addEventListener('load', () => {
       openPopUp(projectObj);
     });
   });
+});
+
+// ---------------------form validation-------------------------
+
+const email = document.getElementById('email');
+const error = document.getElementById('error');
+const form = document.getElementById('form');
+const emailValidation = (input) => {
+  if (input === input.toLowerCase()) {
+    return true;
+  }
+  return false;
+};
+form.addEventListener('submit', (event) => {
+  error.innerHTML = '';
+  if (emailValidation(email.value)) {
+    error.innerHTML = '';
+  } else {
+    event.preventDefault();
+    error.innerHTML = 'Email should be in lowercase!';
+  }
 });

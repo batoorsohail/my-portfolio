@@ -165,7 +165,7 @@
           with it
         </p>
       </div>
-      <form action="https://formspree.io/f/xpznvdgk" method="post">
+      <form action="https://formspree.io/f/xpznvdgk" method="post" id="form">
         <input
           type="text"
           name="full-name"
@@ -181,9 +181,11 @@
           required
           placeholder="me@gmail.com"
         />
+        <span id="error"></span>
         <textarea
           name="message"
           id="textarea"
+          class="textarea"
           cols="30"
           rows="10"
           placeholder="Write your message here"
@@ -191,8 +193,7 @@
           required
         ></textarea>
         <div>
-          <span id="validationMsg"></span><br>
-          <button class="button form-button" type="submit">Get It Touch</button>
+          <button class="button form-button" id="contact-button" type="submit">Get It Touch</button>
         </div>
       </form>
     </div>
