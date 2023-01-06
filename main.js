@@ -203,6 +203,6 @@ form.addEventListener('submit', (event) => {
     error.innerHTML = '';
   } else {
     event.preventDefault();
-    error.innerHTML = 'Email should be in lowercase!';
+    error.innerHTML = 'Please add Email in lowercase!';
   }
 });
