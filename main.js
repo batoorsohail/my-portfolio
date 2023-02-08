@@ -20,42 +20,42 @@ const projects = [
   {
     id: 'first_project',
     name: 'Tonic',
-    image: 'snapshoot-portfolio.png',
+    image: 'proFirst.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: 'A daily selection of privately personalized reads; accounts or sign-ups required.',
-    liveLink: 'Live Link',
-    sourceLink: 'Source Link',
+    liveLink: 'https://batoorsohail.github.io/awesome-books-ES6/',
+    sourceLink: 'https://github.com/batoorsohail/awesome-books-ES6',
   },
   {
     id: 'second_project',
     name: 'Multi-Post Stories',
-    image: 'Snapshoot Portfolio.png',
+    image: 'proSecond.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    liveLink: 'Live Link',
-    sourceLink: 'Source Link',
+    liveLink: 'https://batoorsohail.github.io/microverse-course/index.html',
+    sourceLink: 'https://github.com/batoorsohail/microverse-course',
   },
   {
     id: 'third_project',
     name: 'Tonic',
-    image: 'Snapshoot Portfolio-1.png',
+    image: 'proThird.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    liveLink: 'Live Link',
-    sourceLink: 'Source Link',
+    liveLink: 'https://batoorsohail.github.io/to-do-list/dist/',
+    sourceLink: 'https://github.com/batoorsohail/to-do-list',
   },
   {
     id: 'fourth_project',
     name: 'Multi-Post Stories',
-    image: 'Snapshoot Portfolio-2.png',
+    image: 'proFourth.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    liveLink: 'Live Link',
-    sourceLink: 'Source Link',
+    liveLink: 'https://batoorsohail.github.io/sohailPortfolio/',
+    sourceLink: 'https://github.com/batoorsohail/sohailPortfolio',
   },
 ];
 
@@ -76,7 +76,7 @@ function popUpModal(project) {
           <li>2015</li>
         </ul>
       </div>
-      <img src="./images/${project.image}" alt="Work-sample" />
+      <img src="./images/${project.image}" alt="Work-sample" class="popupImage"/>
       <div class="two-part">
         <div class="left-popup">
           <p class="pro mobile-popup-info">
@@ -100,12 +100,12 @@ function popUpModal(project) {
           <div class="thin-line"></div>
             <button class="button popup-buttons">
               <div>
-                ${project.liveLink} <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <a href="${project.liveLink}" class="popupLink">Live Link</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </div>
             </button>
             <button class="button popup-buttons">
               <div>
-                ${project.sourceLink} <i class="fa-brands fa-square-github"></i></i>
+                <a href="${project.sourceLink}" class="popupLink">Source Link</a> <i class="fa-brands fa-square-github"></i></i>
               </div>
             </button>
           </div>
