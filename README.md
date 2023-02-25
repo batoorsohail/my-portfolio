@@ -97,9 +97,9 @@ In order to run this project you need:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/batoorsohail)
-- Twitter: [@twitterhandle](https://www.linkedin.com/in/sohail-batoor-52429b230/)
-- LinkedIn: [LinkedIn](https://twitter.com/sohailBatoor)
+- GitHub: [@batoorsohail](https://github.com/batoorsohail)
+- Twitter: [@twitter](https://twitter.com/sohailBatoor)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sohail-batoor-52429b230/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
