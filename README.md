@@ -28,13 +28,13 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> A portfolio is one of the most important things for you to find a job. You can share it with the company you want to work for, and they can get more information about you through your portfolio.
+A portfolio is one of the most important things for you to find a job. You can share it with the company you want to work for, and they can get more information about you through your portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### HTML and CSS <a name="HTML and Css"></a>
 
-> HTML and CSS are tools that web developers use to add text, photos, and videos, and also to design a website
+HTML and CSS are tools that web developers use to add text, photos, and videos, and also to design a website
 
 <details>
   <summary>Client</summary>
@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> The key features of this application:
+The key features of this application:
 
 - **My informations**
 - **My works**
@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> You can have access to my project online by clicking on the below link:
+You can have access to my project online by clicking on the below link:
 
 - [Live Demo Link](https://batoorsohail.github.io/my-portfolio/)
 
@@ -80,7 +80,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> If you want to use my project you should clone it into your computer and then open it in your code editor.
+If you want to use my project you should clone it into your computer and then open it in your code editor.
 
 To get a local copy up and running, follow these steps.
 
@@ -143,8 +143,6 @@ I would like to thank Microverse for helping me to complete this project
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **Can we clone it without Git?**
 
   - No, you should install Git.
@@ -160,7 +158,3 @@ I would like to thank Microverse for helping me to complete this project
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
