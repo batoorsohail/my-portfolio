@@ -587,6 +587,7 @@ form input::placeholder {
   .works {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 1156px;
     height: auto;
   }
@@ -628,7 +629,7 @@ form input::placeholder {
 
   .img-transition {
     width: 544px;
-    height: 448px;
+    height: 400px;
     transition-duration: 0.5s;
   }
 
