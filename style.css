@@ -69,6 +69,7 @@
   width: 25px;
   height: 25px;
   top: 40px;
+  right: 20px;
 }
 
 .menu-desktop {
@@ -409,7 +410,7 @@ h3 {
   margin-right: 58px;
 }
 
-/* -------------------------------------------conatact form---------------------------- */
+/* -------------------------------------------contact form---------------------------- */
 .contact-form {
   display: flex;
   flex-direction: column;
