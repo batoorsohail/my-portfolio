@@ -21,6 +21,8 @@ const projects = [
     id: 'first_project',
     name: 'RideEase',
     image: 'rideEase.JPG',
+    kind: 'Front and Back End',
+    year: 2023,
     description: "RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.",
     descriptionExtra: "RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.",
     workInfo: 'A daily selection of privately personalized reads; accounts or sign-ups required.',
@@ -31,6 +33,8 @@ const projects = [
     id: 'second_project',
     name: 'Crypto World',
     image: 'crypto-world.JPG',
+    kind: 'Front End',
+    year: 2023,
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
@@ -41,6 +45,8 @@ const projects = [
     id: 'third_project',
     name: 'Space Travlers Hub',
     image: 'space-travlers.JPG',
+    kind: 'Front End',
+    year: 2023,
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
@@ -51,6 +57,8 @@ const projects = [
     id: 'fourth_project',
     name: 'Book Store',
     image: 'book-store.JPG',
+    kind: 'Front End',
+    year: 2023,
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workInfo: 'A daily selection of privately personalized reads; accounts or sign-ups required.',
@@ -71,9 +79,9 @@ function popUpModal(project) {
         <ul class="proj">
           <li><a href="#">CANOPY</a></li>
           <li><div class="dot"></div></li>
-          <li>Back End Dev</li>
+          <li>${project.kind}</li>
           <li><div class="dot"></div></li>
-          <li>2015</li>
+          <li>${project.year}</li>
         </ul>
       </div>
       <img src="./images/${project.image}" alt="Work-sample" class="popupImage"/>
@@ -131,9 +139,9 @@ function loadProjectCards(projects = []) {
       <ul class="proj">
         <li><a href="#">CANOPY</a></li>
         <li><div class="dot"></div></li>
-        <li>Back End Dev</li>
+        <li>${project.kind}</li>
         <li><div class="dot"></div></li>
-        <li>2015</li>
+        <li>${project.year}</li>
       </ul>
       <p class="pro">
         ${project.workInfo}
