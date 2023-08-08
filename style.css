@@ -509,6 +509,12 @@ form input::placeholder {
 
 /* ---------------------------------------------Desktop version--------------------- */
 @media screen and (min-width: 768px) {
+
+  .header {
+    position: fixed;
+    width: 100%;
+  }
+  
   .bar-button {
     display: none;
   }
