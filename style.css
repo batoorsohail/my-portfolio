@@ -286,10 +286,6 @@ h3 {
   display: block;
 }
 
-.desktop-popup-info {
-  display: none;
-}
-
 .popup-buttons {
   margin-right: 12px;
   margin-top: 0;
@@ -673,14 +669,6 @@ form input::placeholder {
   .right-popup {
     float: right;
     margin-right: 30px;
-  }
-
-  .mobile-popup-info {
-    display: none;
-  }
-
-  .desktop-popup-info {
-    display: block;
   }
 
   .thin-line {

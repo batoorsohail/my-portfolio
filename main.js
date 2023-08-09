@@ -24,8 +24,6 @@ const projects = [
     kind: 'Front and Back End',
     year: 2023,
     description: 'RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.',
-    descriptionExtra: 'RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.',
-    workInfo: 'A daily selection of privately personalized reads; accounts or sign-ups required.',
     liveLink: 'https://book-store-microverse.netlify.app/',
     sourceLink: 'https://github.com/batoorsohail/book-store',
   },
@@ -36,8 +34,6 @@ const projects = [
     kind: 'Front End',
     year: 2023,
     description: 'Crypto World is a website that uses an API to get the data and show the cryptocurrency. Users can search for a coin or go to the details page which displays more information about the currency.',
-    descriptionExtra: 'Crypto World is a website that uses an API to get the data and show the cryptocurrency. Users can search for a coin or go to the details page which displays more information about the currency.',
-    workInfo: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     liveLink: 'https://crypto-world-microverse.netlify.app/',
     sourceLink: 'https://github.com/batoorsohail/crypto-world',
   },
@@ -48,8 +44,6 @@ const projects = [
     kind: 'Front End',
     year: 2023,
     description: "Space Travelers' Hub is a React project in which you can reserve rockets, missions, dragons and see the reserved items in your profile. Also, they can cancel their reservation. We used an API to display rockets in the page.",
-    descriptionExtra: "Space Travelers' Hub is a React project in which you can reserve rockets, missions, dragons and see the reserved items in your profile. Also, they can cancel their reservation. We used an API to display rockets in the page.",
-    workInfo: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     liveLink: 'https://batoorsohail.github.io/to-do-list/dist/',
     sourceLink: 'https://github.com/batoorsohail/to-do-list',
   },
@@ -60,8 +54,6 @@ const projects = [
     kind: 'Front End',
     year: 2023,
     description: "Book Store is a simple website where users can add a book with the author's name and category of the book. When a user adds a new book it will push the data inside an API and then it will load it for others as well.",
-    descriptionExtra: "Book Store is a simple website where users can add a book with the author's name and category of the book. When a user adds a new book it will push the data inside an API and then it will load it for others as well.",
-    workInfo: 'A daily selection of privately personalized reads; accounts or sign-ups required.',
     liveLink: 'https://book-store-microverse.netlify.app/',
     sourceLink: 'https://github.com/batoorsohail/book-store',
   },
@@ -89,9 +81,6 @@ function popUpModal(project) {
         <div class="left-popup">
           <p class="pro mobile-popup-info">
             ${project.description}
-          </p>
-          <p class="pro desktop-popup-info">
-            ${project.descriptionExtra}
           </p>
         </div>
         <div class="right-popup">
@@ -144,7 +133,7 @@ function loadProjectCards(projects = []) {
         <li>${project.year}</li>
       </ul>
       <p class="pro">
-        ${project.workInfo}
+        ${project.description}
       </p>
       <ul class="language">
         <li>HTML</li>
