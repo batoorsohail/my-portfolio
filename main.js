@@ -24,8 +24,8 @@ const projects = [
     kind: 'Front and Back End',
     year: 2023,
     description: 'RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.',
-    liveLink: 'https://book-store-microverse.netlify.app/',
-    sourceLink: 'https://github.com/batoorsohail/book-store',
+    liveLink: 'https://rideease.onrender.com/',
+    sourceLink: 'https://github.com/batoorsohail/rideEase-front-end',
   },
   {
     id: 'second_project',
