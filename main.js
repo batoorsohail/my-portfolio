@@ -69,7 +69,7 @@ function popUpModal(project) {
         <i class="fa-solid fa-xmark" id="popupClose"></i>
         <h3>${project.name}</h3>
         <ul class="proj">
-          <li><a href="#">CANOPY</a></li>
+          <li><a href="#">Personal</a></li>
           <li><div class="dot"></div></li>
           <li>${project.kind}</li>
           <li><div class="dot"></div></li>
@@ -126,7 +126,7 @@ function loadProjectCards(projects = []) {
     <div class="card-work work">
       <h3>${project.name}</h3>
       <ul class="proj">
-        <li><a href="#">CANOPY</a></li>
+        <li><a href="#">Personal</a></li>
         <li><div class="dot"></div></li>
         <li>${project.kind}</li>
         <li><div class="dot"></div></li>

@@ -361,7 +361,7 @@ h3 {
 
 .about-me a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 24px;
   color: #000;
 }
@@ -388,7 +388,7 @@ h3 {
 
 .info a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 24px;
   color: #000;
 }
