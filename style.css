@@ -196,7 +196,8 @@ h3 {
 
 .language {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
+  gap: 10px;
   margin-top: 12px;
 }
 
@@ -289,10 +290,6 @@ h3 {
 .popup-buttons {
   margin-right: 12px;
   margin-top: 0;
-}
-
-.lagu-desktop {
-  display: none;
 }
 
 .thin-line {
