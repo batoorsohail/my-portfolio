@@ -19,21 +19,29 @@ const modalContainer = document.querySelector('#popupModal');
 const projects = [
   {
     id: 'first_project',
-    name: 'Book Store',
-    image: 'book-store.JPG',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workInfo: 'A daily selection of privately personalized reads; accounts or sign-ups required.',
-    liveLink: 'https://book-store-microverse.netlify.app/',
-    sourceLink: 'https://github.com/batoorsohail/book-store',
+    name: 'RideEase',
+    image: 'rideEase.JPG',
+    kind: 'Front and Back End',
+    year: 2023,
+    lang: 'Ruby',
+    lang1: 'Ruby on Rails',
+    lang2: 'JavaScript',
+    lang3: 'React',
+    description: 'RideEase is a car booking website that allows users to easily book a ride and travel to their desired destinations. Users can reserve a car from the available cars by providing the date and city. RideEase provides a seamless and reliable car booking experience.',
+    liveLink: 'https://rideease.onrender.com/',
+    sourceLink: 'https://github.com/batoorsohail/rideEase-front-end',
   },
   {
     id: 'second_project',
     name: 'Crypto World',
     image: 'crypto-world.JPG',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workInfo: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    kind: 'Front End',
+    year: 2023,
+    lang: 'JavaScript',
+    lang1: 'React',
+    lang2: 'ES6 Modules',
+    lang3: 'CSS',
+    description: 'Crypto World is a website that uses an API to get the data and show the cryptocurrency. Users can search for a coin or go to the details page which displays more information about the currency.',
     liveLink: 'https://crypto-world-microverse.netlify.app/',
     sourceLink: 'https://github.com/batoorsohail/crypto-world',
   },
@@ -41,21 +49,29 @@ const projects = [
     id: 'third_project',
     name: 'Space Travlers Hub',
     image: 'space-travlers.JPG',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workInfo: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    kind: 'Front End',
+    year: 2023,
+    lang: 'JavaScript',
+    lang1: 'React',
+    lang2: 'ES6 Modules',
+    lang3: 'CSS',
+    description: "Space Travelers' Hub is a React project in which you can reserve rockets, missions, dragons and see the reserved items in your profile. Also, they can cancel their reservation. We used an API to display rockets in the page.",
     liveLink: 'https://batoorsohail.github.io/to-do-list/dist/',
     sourceLink: 'https://github.com/batoorsohail/to-do-list',
   },
   {
     id: 'fourth_project',
-    name: 'Math Magicians',
-    image: 'math-magicians.JPG',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    descriptionExtra: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workInfo: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    liveLink: 'https://batoorsohail.github.io/to-do-list/dist/',
-    sourceLink: 'https://github.com/batoorsohail/to-do-list',
+    name: 'Book Store',
+    image: 'book-store.JPG',
+    kind: 'Front End',
+    year: 2023,
+    lang: 'JavaScript',
+    lang1: 'React',
+    lang2: 'ES6 Modules',
+    lang3: 'CSS',
+    description: "Book Store is a simple website where users can add a book with the author's name and category of the book. When a user adds a new book it will push the data inside an API and then it will load it for others as well.",
+    liveLink: 'https://book-store-microverse.netlify.app/',
+    sourceLink: 'https://github.com/batoorsohail/book-store',
   },
 ];
 
@@ -69,11 +85,11 @@ function popUpModal(project) {
         <i class="fa-solid fa-xmark" id="popupClose"></i>
         <h3>${project.name}</h3>
         <ul class="proj">
-          <li><a href="#">CANOPY</a></li>
+          <li><a href="#">Personal</a></li>
           <li><div class="dot"></div></li>
-          <li>Back End Dev</li>
+          <li>${project.kind}</li>
           <li><div class="dot"></div></li>
-          <li>2015</li>
+          <li>${project.year}</li>
         </ul>
       </div>
       <img src="./images/${project.image}" alt="Work-sample" class="popupImage"/>
@@ -82,20 +98,13 @@ function popUpModal(project) {
           <p class="pro mobile-popup-info">
             ${project.description}
           </p>
-          <p class="pro desktop-popup-info">
-            ${project.descriptionExtra}
-          </p>
         </div>
         <div class="right-popup">
           <ul class="language">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-          <ul class="language lagu-desktop">
-            <li>Github</li>
-            <li>Ruby</li>
-            <li>BootStrap</li>
+            <li>${project.lang}</li>
+            <li>${project.lang1}</li>
+            <li>${project.lang2}</li>
+            <li>${project.lang3}</li>
           </ul>
           <div class="thin-line"></div>
             <button class="button popup-buttons">
@@ -129,19 +138,20 @@ function loadProjectCards(projects = []) {
     <div class="card-work work">
       <h3>${project.name}</h3>
       <ul class="proj">
-        <li><a href="#">CANOPY</a></li>
+        <li><a href="#">Personal</a></li>
         <li><div class="dot"></div></li>
-        <li>Back End Dev</li>
+        <li>${project.kind}</li>
         <li><div class="dot"></div></li>
-        <li>2015</li>
+        <li>${project.year}</li>
       </ul>
       <p class="pro">
-        ${project.workInfo}
+        ${project.description}
       </p>
       <ul class="language">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li>${project.lang}</li>
+        <li>${project.lang1}</li>
+        <li>${project.lang2}</li>
+        <li>${project.lang3}</li>
       </ul>
       <button class="button button-mg" project-id="${project.id}" id="see-project-button">See Project</button>
     </div>

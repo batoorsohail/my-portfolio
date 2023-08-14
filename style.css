@@ -69,6 +69,7 @@
   width: 25px;
   height: 25px;
   top: 40px;
+  right: 20px;
 }
 
 .menu-desktop {
@@ -195,7 +196,8 @@ h3 {
 
 .language {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
+  gap: 10px;
   margin-top: 12px;
 }
 
@@ -285,17 +287,9 @@ h3 {
   display: block;
 }
 
-.desktop-popup-info {
-  display: none;
-}
-
 .popup-buttons {
   margin-right: 12px;
   margin-top: 0;
-}
-
-.lagu-desktop {
-  display: none;
 }
 
 .thin-line {
@@ -364,7 +358,7 @@ h3 {
 
 .about-me a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 24px;
   color: #000;
 }
@@ -391,7 +385,7 @@ h3 {
 
 .info a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 24px;
   color: #000;
 }
@@ -409,7 +403,7 @@ h3 {
   margin-right: 58px;
 }
 
-/* -------------------------------------------conatact form---------------------------- */
+/* -------------------------------------------contact form---------------------------- */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -508,6 +502,13 @@ form input::placeholder {
 
 /* ---------------------------------------------Desktop version--------------------- */
 @media screen and (min-width: 768px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
   .bar-button {
     display: none;
   }
@@ -536,8 +537,17 @@ form input::placeholder {
     margin-right: 155px;
   }
 
+  .proj a {
+    font-size: 18px;
+  }
+
   .menu-bar:hover {
     text-decoration: underline;
+    color: #396df2;
+  }
+
+  .menu-bar a:hover {
+    color: #396df2;
   }
 
   .background {
@@ -612,10 +622,6 @@ form input::placeholder {
     font-size: 18px;
   }
 
-  .proj a {
-    font-size: 18px;
-  }
-
   .pro {
     font-size: 16px;
     margin-top: 32px;
@@ -667,14 +673,6 @@ form input::placeholder {
     margin-right: 30px;
   }
 
-  .mobile-popup-info {
-    display: none;
-  }
-
-  .desktop-popup-info {
-    display: block;
-  }
-
   .thin-line {
     width: 298px;
   }
@@ -686,7 +684,7 @@ form input::placeholder {
   /* --------------------------About Me---------- */
   .about {
     display: flex;
-    margin-bottom: 150px;
+    padding-bottom: 350px;
   }
 
   .abmy {
@@ -714,6 +712,11 @@ form input::placeholder {
 
   .line {
     width: 685px;
+  }
+
+  .skills-list {
+    display: flex;
+    gap: 5px;
   }
 
   /* --------------------------contact me--------- */
