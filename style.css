@@ -539,6 +539,11 @@ form input::placeholder {
 
   .menu-bar:hover {
     text-decoration: underline;
+    color: #396df2;
+  }
+
+  .menu-bar a:hover {
+    color: #396df2;
   }
 
   .background {
