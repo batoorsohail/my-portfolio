@@ -537,6 +537,10 @@ form input::placeholder {
     margin-right: 155px;
   }
 
+  .proj a {
+    font-size: 18px;
+  }
+
   .menu-bar:hover {
     text-decoration: underline;
     color: #396df2;
@@ -615,10 +619,6 @@ form input::placeholder {
   }
 
   .proj li {
-    font-size: 18px;
-  }
-
-  .proj a {
     font-size: 18px;
   }
 
