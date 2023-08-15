@@ -56,8 +56,8 @@ const projects = [
     lang2: 'ES6 Modules',
     lang3: 'CSS',
     description: "Space Travelers' Hub is a React project in which you can reserve rockets, missions, dragons and see the reserved items in your profile. Also, they can cancel their reservation. We used an API to display rockets in the page.",
-    liveLink: 'https://batoorsohail.github.io/to-do-list/dist/',
-    sourceLink: 'https://github.com/batoorsohail/to-do-list',
+    liveLink: 'https://space-travelers-home.netlify.app/',
+    sourceLink: 'https://github.com/batoorsohail/react-redux-group-project',
   },
   {
     id: 'fourth_project',
