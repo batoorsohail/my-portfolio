@@ -47,7 +47,7 @@ const projects = [
   },
   {
     id: 'third_project',
-    name: 'Space Travlers Hub',
+    name: 'Space Travelers Hub',
     image: 'space-travlers.JPG',
     kind: 'Front End',
     year: 2023,
