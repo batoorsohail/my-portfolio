@@ -109,7 +109,7 @@ function popUpModal(project) {
           <div class="thin-line"></div>
             <button class="button popup-buttons">
               <div>
-                <a href="${project.liveLink}" class="popupLink">Live Link</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <a href="${project.liveLink}" target="_blank" class="popupLink">Live Link</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </div>
             </button>
             <button class="button popup-buttons">

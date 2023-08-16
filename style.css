@@ -500,8 +500,27 @@ form input::placeholder {
   transition: 0.5s;
 }
 
-/* ---------------------------------------------Desktop version--------------------- */
 @media screen and (min-width: 768px) {
+  .shadow-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .works {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: auto;
+  }
+
+  .languages {
+    width: 100%;
+  }
+}
+
+/* ---------------------------------------------Desktop version--------------------- */
+@media screen and (min-width: 1180px) {
   .header {
     position: fixed;
     width: 100%;
@@ -588,16 +607,8 @@ form input::placeholder {
   }
 
   /* ------------------------------Works------- */
-  .shadow-back {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .works {
-    display: flex;
     flex-direction: row;
-    align-items: center;
     width: 1156px;
     height: auto;
   }
