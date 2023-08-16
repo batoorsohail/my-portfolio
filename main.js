@@ -114,7 +114,7 @@ function popUpModal(project) {
             </button>
             <button class="button popup-buttons">
               <div>
-                <a href="${project.sourceLink}" class="popupLink">Source Link</a> <i class="fa-brands fa-square-github"></i></i>
+                <a href="${project.sourceLink}" target="_blank" class="popupLink">Source Link</a> <i class="fa-brands fa-square-github"></i></i>
               </div>
             </button>
           </div>
